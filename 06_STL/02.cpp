@@ -8,5 +8,10 @@ int main()
     m1[99]  = "Person 2";
     m1[002] = "Person 3";
     cout<<m1[99]<<endl;
-    cout<<m1.size();
+    // cout<<m1.size();
+
+    for(auto i: m1)
+    {
+        cout<<i.first<<" "<<i.second<<endl;
+    }
 }
